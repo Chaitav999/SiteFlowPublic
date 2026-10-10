@@ -1,0 +1,9 @@
+[api]
+port = 54321
+
+[db]
+shadow_port = 54322
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
